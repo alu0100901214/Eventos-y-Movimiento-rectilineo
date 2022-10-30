@@ -28,8 +28,12 @@
 
 ## 5 Agrega un personaje que se dirija hacia un objetivo estático en la escena.
 
+-> Restando la posición del objetivo con la posición del objeto a mover, podemos calcular el vector entre estos dos y moverlo en esa dirección.
+
 ![gif](./GIF/Objective.gif)
 
 # 6  Agrega un personaje que siga el movimiento del jugador 
+
+-> Añadimos la posibilidad del jugador de moverse por el escenario y establecemos otro objeto cuyo objetivo es el propio jugador al moverse. De esta forma podemos simular que el objeto nos sigue.
 
 ![gif](./GIF/Follow.gif)
