@@ -6,7 +6,17 @@
 
 ## 2 Implementar una UI que permita configurar con qué velocidad te moverás: turbo o normal. También debe mostar la cantidad de objetos recolectados y si chocas con alguno especial restar fuerza.
 
-![gif](./GIF/UI.gif)
+### Velocidad Turbo o Normal con botones de la UI:
+
+![gif](./GIF/Speed.gif)
+
+### Recolectar monedas y actualizar la UI:
+
+![gif](./GIF/Coin.gif)
+
+### Recibir daño y reducir tu Vida / Fuerza en la UI:
+
+![gif](./GIF/Danger.gif)
 
 ## 3 Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otro objetos obstáculos se desplacen de su trayectoria.
 
