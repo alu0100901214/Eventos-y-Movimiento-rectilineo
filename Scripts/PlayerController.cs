@@ -22,11 +22,7 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(0, 0, Input.GetAxis("Vertical") * speed * Time.deltaTime);
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime, 0);
-        
-        //if(Input.GetKey(KeyCode.Space)){
-        //    speed = 12f;
-        //}else
-        //    speed = 6f;
+
     }
 
     public void setNormalSpeed(){
