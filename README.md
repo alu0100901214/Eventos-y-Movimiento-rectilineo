@@ -36,9 +36,9 @@
 
 ## 3 Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otro objetos obstáculos se desplacen de su trayectoria.
 
--> El objeto que recolecta el jugador contiene referencias a otros 3 objetos (Esferas Verdes) para que cuando se active, se le añadan una fuerza y se choquen contra la pared.
+-> El objeto que recolecta el jugador (Notificador) contiene un delegado y activa el evento OnRecolect y lo llama usando OnTriggerEnter. Despues otras 3 esferas (Suscriptoras) reaccionan a la llamada del evento y activan una función (addForceToBall()) que les añade una fuerza para desplazarlas.
 
-(Scripts utilizados: Recolect.cs)
+(Scripts utilizados: Notifier.cs, Suscriber.cs)
 
 ![gif](./GIF/Recolect.gif)
 
